@@ -1,6 +1,6 @@
 import { NextResponse } from 'next/server';
 
-let isBLocked = false;
+let isBLocked = true;
 
 export default function handler(req:any, res:any) {
     // Проверяем метод запроса (GET, POST и т.д.)
