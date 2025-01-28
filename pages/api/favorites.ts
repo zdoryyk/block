@@ -1,6 +1,5 @@
 import { NextApiRequest, NextApiResponse } from 'next';
 
-// Define the TypeScript interface
 interface ReservableItemDto {
   itemId: string;
   title: string;
@@ -11,14 +10,13 @@ interface ReservableItemDto {
   contacts: Record<string, string>;
 }
 
-// Create static data
 let reservableItems: ReservableItemDto[] = [
   {
     itemId: '5',
     title: 'Conference Room A',
     location: 'Building 1, Floor 2',
     description: 'A spacious conference room with a seating capacity of 20.',
-    image: '/images/conference-room-a.jpg',
+    image: 'https://as2.ftcdn.net/v2/jpg/00/80/91/11/1000_F_80911186_RoBCsyLrNTrG7Y1EOyCsaCJO5DyHgTox.jpg',
     itemType: 'Room',
     contacts: {
       manager: 'John Doe',
@@ -30,7 +28,7 @@ let reservableItems: ReservableItemDto[] = [
     title: 'Projector X200',
     location: 'Storage Room B',
     description: 'High-resolution projector suitable for presentations.',
-    image: '/images/projector-x200.jpg',
+    image: 'https://as1.ftcdn.net/v2/jpg/02/42/85/74/1000_F_242857464_EJLcOm0udSZ56H1pldwIaDCtmCUZe5pi.jpg',
     itemType: 'Equipment',
     contacts: {
       technician: 'Jane Smith',
