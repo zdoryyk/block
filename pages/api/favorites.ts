@@ -14,7 +14,7 @@ interface ReservableItemDto {
 // Create static data
 let reservableItems: ReservableItemDto[] = [
   {
-    itemId: '1',
+    itemId: '5',
     title: 'Conference Room A',
     location: 'Building 1, Floor 2',
     description: 'A spacious conference room with a seating capacity of 20.',
@@ -26,7 +26,7 @@ let reservableItems: ReservableItemDto[] = [
     },
   },
   {
-    itemId: '2',
+    itemId: '6',
     title: 'Projector X200',
     location: 'Storage Room B',
     description: 'High-resolution projector suitable for presentations.',
