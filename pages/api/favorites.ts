@@ -35,6 +35,18 @@ let reservableItems: ReservableItemDto[] = [
       email: 'janesmith@example.com',
     },
   },
+  {
+    itemId: '7',
+    title: 'new Room',
+    location: 'Storage Room DC',
+    description: 'High-resolution projector suitable for presentations.',
+    image: 'https://as1.ftcdn.net/v2/jpg/04/79/61/22/1000_F_479612236_nCeccg2aqJqLGdMISMlc2aLh5mp55PWI.jpg',
+    itemType: 'Equipment',
+    contacts: {
+      technician: 'Jane Smith',
+      email: 'janesmith@example.com',
+    },
+  },
 ];
 
 // API endpoint handler
