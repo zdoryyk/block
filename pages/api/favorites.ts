@@ -7,6 +7,7 @@ interface ReservableItemDto {
   description: string;
   image: string;
   itemType: string;
+  isFavourite: boolean;
   contacts: Record<string, string>;
 }
 
@@ -18,6 +19,7 @@ let reservableItems: ReservableItemDto[] = [
     description: 'A spacious conference room with a seating capacity of 20.',
     image: 'https://as2.ftcdn.net/v2/jpg/00/80/91/11/1000_F_80911186_RoBCsyLrNTrG7Y1EOyCsaCJO5DyHgTox.jpg',
     itemType: 'Room',
+    isFavourite: true,
     contacts: {
       manager: 'John Doe',
       email: 'johndoe@example.com',
@@ -30,6 +32,7 @@ let reservableItems: ReservableItemDto[] = [
     description: 'High-resolution projector suitable for presentations.',
     image: 'https://as1.ftcdn.net/v2/jpg/02/42/85/74/1000_F_242857464_EJLcOm0udSZ56H1pldwIaDCtmCUZe5pi.jpg',
     itemType: 'Equipment',
+    isFavourite: true,
     contacts: {
       technician: 'Jane Smith',
       email: 'janesmith@example.com',
@@ -42,6 +45,7 @@ let reservableItems: ReservableItemDto[] = [
     description: 'High-resolution projector suitable for presentations.',
     image: 'https://as1.ftcdn.net/v2/jpg/04/79/61/22/1000_F_479612236_nCeccg2aqJqLGdMISMlc2aLh5mp55PWI.jpg',
     itemType: 'Equipment',
+    isFavourite: true,
     contacts: {
       technician: 'Jane Smith',
       email: 'janesmith@example.com',
@@ -54,6 +58,7 @@ let reservableItems: ReservableItemDto[] = [
     description: 'High-resolution projector suitable for presentations.',
     image: 'https://as1.ftcdn.net/v2/jpg/01/10/65/26/1000_F_110652675_P43XecOs9vfa0fX7YN3IuENoVtciPfof.jpg',
     itemType: 'Equipment',
+    isFavourite: true,
     contacts: {
       technician: 'Jane Smith',
       email: 'janesmith@example.com',
